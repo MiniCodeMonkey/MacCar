@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D58BFFB10BFC7F1009544B6 /* libbass.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D58BFFA10BFC7F1009544B6 /* libbass.dylib */; };
+		3D58BFFD10BFC821009544B6 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D58BFFC10BFC821009544B6 /* Main.cpp */; };
+		3D58C00710BFC832009544B6 /* MediaManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D58BFFE10BFC832009544B6 /* MediaManager.cpp */; };
+		3D58C00810BFC832009544B6 /* Playlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D58BFFF10BFC832009544B6 /* Playlist.cpp */; };
+		3D58C00910BFC832009544B6 /* Playlists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D58C00010BFC832009544B6 /* Playlists.cpp */; };
+		3D58C00A10BFC832009544B6 /* Scene_Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D58C00110BFC832009544B6 /* Scene_Main.cpp */; };
+		3D58C00B10BFC832009544B6 /* Scene_Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D58C00210BFC832009544B6 /* Scene_Music.cpp */; };
+		3D58C00C10BFC832009544B6 /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D58C00310BFC832009544B6 /* Scene.cpp */; };
+		3D58C00D10BFC832009544B6 /* ScrollingText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D58C00410BFC832009544B6 /* ScrollingText.cpp */; };
+		3D58C00E10BFC832009544B6 /* Serial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D58C00510BFC832009544B6 /* Serial.cpp */; };
+		3D58C00F10BFC832009544B6 /* Track.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D58C00610BFC832009544B6 /* Track.cpp */; };
+		A0072ADE0F1D0EC500B4A594 /* sfml-system.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CB0F07CFF2000AAC7B /* sfml-system.framework */; };
+		A0072ADF0F1D0EC500B4A594 /* sfml-window.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CC0F07CFF2000AAC7B /* sfml-window.framework */; };
+		A0072AE00F1D0EC500B4A594 /* sfml-graphics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CA0F07CFF2000AAC7B /* sfml-graphics.framework */; };
+		A01FB6C90F07CFCE000AAC7B /* main_old.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A01FB6C80F07CFCE000AAC7B /* main_old.cpp */; };
+		A01FB6CE0F07CFF2000AAC7B /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CA0F07CFF2000AAC7B /* sfml-graphics.framework */; };
+		A01FB6CF0F07CFF2000AAC7B /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CB0F07CFF2000AAC7B /* sfml-system.framework */; };
+		A01FB6D00F07CFF2000AAC7B /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CC0F07CFF2000AAC7B /* sfml-window.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0072AF00F1D0EDD00B4A594 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A0072ADE0F1D0EC500B4A594 /* sfml-system.framework in Copy Frameworks */,
+				A0072ADF0F1D0EC500B4A594 /* sfml-window.framework in Copy Frameworks */,
+				A0072AE00F1D0EC500B4A594 /* sfml-graphics.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D58BFEA10BFC7C8009544B6 /* bass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bass.h; sourceTree = "<group>"; };
+		3D58BFEB10BFC7C8009544B6 /* Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		3D58BFEC10BFC7C9009544B6 /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		3D58BFED10BFC7C9009544B6 /* Exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		3D58BFEE10BFC7C9009544B6 /* Main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
+		3D58BFEF10BFC7C9009544B6 /* MediaManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaManager.h; sourceTree = "<group>"; };
+		3D58BFF010BFC7C9009544B6 /* Playlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		3D58BFF110BFC7C9009544B6 /* Playlists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playlists.h; sourceTree = "<group>"; };
+		3D58BFF210BFC7C9009544B6 /* Scene_Main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene_Main.h; sourceTree = "<group>"; };
+		3D58BFF310BFC7C9009544B6 /* Scene_Music.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene_Music.h; sourceTree = "<group>"; };
+		3D58BFF410BFC7C9009544B6 /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		3D58BFF510BFC7C9009544B6 /* ScrollingText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollingText.h; sourceTree = "<group>"; };
+		3D58BFF610BFC7C9009544B6 /* SDLMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		3D58BFF710BFC7C9009544B6 /* Serial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Serial.h; sourceTree = "<group>"; };
+		3D58BFF810BFC7C9009544B6 /* Track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		3D58BFF910BFC7C9009544B6 /* Button.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Button.cpp; sourceTree = "<group>"; };
+		3D58BFFA10BFC7F1009544B6 /* libbass.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libbass.dylib; sourceTree = "<group>"; };
+		3D58BFFC10BFC821009544B6 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		3D58BFFE10BFC832009544B6 /* MediaManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MediaManager.cpp; sourceTree = "<group>"; };
+		3D58BFFF10BFC832009544B6 /* Playlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Playlist.cpp; sourceTree = "<group>"; };
+		3D58C00010BFC832009544B6 /* Playlists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Playlists.cpp; sourceTree = "<group>"; };
+		3D58C00110BFC832009544B6 /* Scene_Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene_Main.cpp; sourceTree = "<group>"; };
+		3D58C00210BFC832009544B6 /* Scene_Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene_Music.cpp; sourceTree = "<group>"; };
+		3D58C00310BFC832009544B6 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		3D58C00410BFC832009544B6 /* ScrollingText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrollingText.cpp; sourceTree = "<group>"; };
+		3D58C00510BFC832009544B6 /* Serial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Serial.cpp; sourceTree = "<group>"; };
+		3D58C00610BFC832009544B6 /* Track.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Track.cpp; sourceTree = "<group>"; };
+		A01FB6A90F07CF6E000AAC7B /* MacCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01FB6AC0F07CF6E000AAC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01FB6C80F07CFCE000AAC7B /* main_old.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main_old.cpp; sourceTree = "<group>"; };
+		A01FB6CA0F07CFF2000AAC7B /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "/Library/Frameworks/sfml-graphics.framework"; sourceTree = "<absolute>"; };
+		A01FB6CB0F07CFF2000AAC7B /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "/Library/Frameworks/sfml-system.framework"; sourceTree = "<absolute>"; };
+		A01FB6CC0F07CFF2000AAC7B /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "/Library/Frameworks/sfml-window.framework"; sourceTree = "<absolute>"; };
+		A01FB6CD0F07CFF2000AAC7B /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = /Library/Frameworks/SFML.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A01FB6A70F07CF6E000AAC7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01FB6CE0F07CFF2000AAC7B /* sfml-graphics.framework in Frameworks */,
+				A01FB6CF0F07CFF2000AAC7B /* sfml-system.framework in Frameworks */,
+				A01FB6D00F07CFF2000AAC7B /* sfml-window.framework in Frameworks */,
+				3D58BFFB10BFC7F1009544B6 /* libbass.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A01FB69A0F07CF63000AAC7B = {
+			isa = PBXGroup;
+			children = (
+				A01FB6B20F07CF80000AAC7B /* Sources */,
+				A01FB6B10F07CF7C000AAC7B /* Resources */,
+				A01FB6B00F07CF75000AAC7B /* Frameworks */,
+				A01FB6AA0F07CF6E000AAC7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A01FB6AA0F07CF6E000AAC7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A01FB6A90F07CF6E000AAC7B /* MacCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A01FB6B00F07CF75000AAC7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D58BFFA10BFC7F1009544B6 /* libbass.dylib */,
+				A01FB6CD0F07CFF2000AAC7B /* SFML.framework */,
+				A01FB6CB0F07CFF2000AAC7B /* sfml-system.framework */,
+				A01FB6CC0F07CFF2000AAC7B /* sfml-window.framework */,
+				A01FB6CA0F07CFF2000AAC7B /* sfml-graphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A01FB6B10F07CF7C000AAC7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A01FB6AC0F07CF6E000AAC7B /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A01FB6B20F07CF80000AAC7B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3D58BFEA10BFC7C8009544B6 /* bass.h */,
+				3D58BFEB10BFC7C8009544B6 /* Button.h */,
+				3D58BFEC10BFC7C9009544B6 /* defines.h */,
+				3D58BFED10BFC7C9009544B6 /* Exception.h */,
+				3D58BFEE10BFC7C9009544B6 /* Main.h */,
+				3D58BFEF10BFC7C9009544B6 /* MediaManager.h */,
+				3D58BFF010BFC7C9009544B6 /* Playlist.h */,
+				3D58BFF110BFC7C9009544B6 /* Playlists.h */,
+				3D58BFF210BFC7C9009544B6 /* Scene_Main.h */,
+				3D58BFF310BFC7C9009544B6 /* Scene_Music.h */,
+				3D58BFF410BFC7C9009544B6 /* Scene.h */,
+				3D58BFFE10BFC832009544B6 /* MediaManager.cpp */,
+				3D58BFFF10BFC832009544B6 /* Playlist.cpp */,
+				3D58C00010BFC832009544B6 /* Playlists.cpp */,
+				3D58C00110BFC832009544B6 /* Scene_Main.cpp */,
+				3D58C00210BFC832009544B6 /* Scene_Music.cpp */,
+				3D58C00310BFC832009544B6 /* Scene.cpp */,
+				3D58C00410BFC832009544B6 /* ScrollingText.cpp */,
+				3D58C00510BFC832009544B6 /* Serial.cpp */,
+				3D58C00610BFC832009544B6 /* Track.cpp */,
+				3D58BFF510BFC7C9009544B6 /* ScrollingText.h */,
+				3D58BFF610BFC7C9009544B6 /* SDLMain.h */,
+				3D58BFF710BFC7C9009544B6 /* Serial.h */,
+				3D58BFF810BFC7C9009544B6 /* Track.h */,
+				3D58BFF910BFC7C9009544B6 /* Button.cpp */,
+				3D58BFFC10BFC821009544B6 /* Main.cpp */,
+				A01FB6C80F07CFCE000AAC7B /* main_old.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A01FB6A80F07CF6E000AAC7B /* MacCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01FB6AF0F07CF6F000AAC7B /* Build configuration list for PBXNativeTarget "MacCar" */;
+			buildPhases = (
+				A01FB6A50F07CF6E000AAC7B /* Resources */,
+				A01FB6A60F07CF6E000AAC7B /* Sources */,
+				A01FB6A70F07CF6E000AAC7B /* Frameworks */,
+				A0072AF00F1D0EDD00B4A594 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacCar;
+			productName = MacCar;
+			productReference = A01FB6A90F07CF6E000AAC7B /* MacCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A01FB69C0F07CF63000AAC7B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A01FB69F0F07CF63000AAC7B /* Build configuration list for PBXProject "MacCar" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = A01FB69A0F07CF63000AAC7B;
+			productRefGroup = A01FB6AA0F07CF6E000AAC7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A01FB6A80F07CF6E000AAC7B /* MacCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A01FB6A50F07CF6E000AAC7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A01FB6A60F07CF6E000AAC7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01FB6C90F07CFCE000AAC7B /* main_old.cpp in Sources */,
+				3D58BFFD10BFC821009544B6 /* Main.cpp in Sources */,
+				3D58C00710BFC832009544B6 /* MediaManager.cpp in Sources */,
+				3D58C00810BFC832009544B6 /* Playlist.cpp in Sources */,
+				3D58C00910BFC832009544B6 /* Playlists.cpp in Sources */,
+				3D58C00A10BFC832009544B6 /* Scene_Main.cpp in Sources */,
+				3D58C00B10BFC832009544B6 /* Scene_Music.cpp in Sources */,
+				3D58C00C10BFC832009544B6 /* Scene.cpp in Sources */,
+				3D58C00D10BFC832009544B6 /* ScrollingText.cpp in Sources */,
+				3D58C00E10BFC832009544B6 /* Serial.cpp in Sources */,
+				3D58C00F10BFC832009544B6 /* Track.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A01FB69D0F07CF63000AAC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A01FB69E0F07CF63000AAC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		A01FB6AD0F07CF6F000AAC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = MacCar;
+			};
+			name = Debug;
+		};
+		A01FB6AE0F07CF6F000AAC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = MacCar;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A01FB69F0F07CF63000AAC7B /* Build configuration list for PBXProject "MacCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01FB69D0F07CF63000AAC7B /* Debug */,
+				A01FB69E0F07CF63000AAC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01FB6AF0F07CF6F000AAC7B /* Build configuration list for PBXNativeTarget "MacCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01FB6AD0F07CF6F000AAC7B /* Debug */,
+				A01FB6AE0F07CF6F000AAC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A01FB69C0F07CF63000AAC7B /* Project object */;
+}

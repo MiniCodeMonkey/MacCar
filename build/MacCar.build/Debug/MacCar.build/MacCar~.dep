@@ -1,0 +1,8 @@
+8ac3cf53dcaed47e83d3c09366914660 3bd1f1f8bf0cb62e53bf634e9ee9c658 ffffffffffffffffffffffffffffffff 102 /Users/Mini/Documents/Projekter/MacCar/build/Debug/MacCar.app
+000000004a25745000000000000000aa a97a4a98499f84e4e1339d1301d8f5aa ffffffffffffffffffffffffffffffff 170 /Users/Mini/Documents/Projekter/MacCar/build/Debug/MacCar.app/Contents/Frameworks/sfml-graphics.framework
+000000004a259ec200000000000000aa 4b007ce41d8e9c4f8df55f3ccf34d040 ffffffffffffffffffffffffffffffff 170 /Users/Mini/Documents/Projekter/MacCar/build/Debug/MacCar.app/Contents/Frameworks/sfml-window.framework
+000000004a25740300000000000000aa a6f4de06bfebc20a7ae8c363a96a4cb8 ffffffffffffffffffffffffffffffff 170 /Users/Mini/Documents/Projekter/MacCar/build/Debug/MacCar.app/Contents/Frameworks/sfml-system.framework
+dea46b9c4882ccffdcc49435899ababf 10e94cb535f35cb1493955ea888d9527 ffffffffffffffffffffffffffffffff 18684 /Users/Mini/Documents/Projekter/MacCar/build/Debug/MacCar.app/Contents/MacOS/MacCar
+00000000000000000000000000000000 b842cfb150daa8a444313ba8f381020d ffffffffffffffffffffffffffffffff 8 /Users/Mini/Documents/Projekter/MacCar/build/Debug/MacCar.app/Contents/PkgInfo
+00000000000000000000000000000000 b842cfb150daa8a444313ba8f381020d ffffffffffffffffffffffffffffffff 602 /Users/Mini/Documents/Projekter/MacCar/build/Debug/MacCar.app/Contents/Info.plist
+000000004b0f900c0000000000027ec0 dea46b9c49a82883dcc4943589d791ff ffffffffffffffffffffffffffffffff 119268 /Users/Mini/Documents/Projekter/MacCar/build/MacCar.build/Debug/MacCar.build/Objects-normal/i386/main.o
